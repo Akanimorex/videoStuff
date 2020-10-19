@@ -19,11 +19,11 @@ const Video =()=>{
 
                            Back
                         </Link>
-                        <div className="d-flex pl-2">
+                        <div className="d-flex pl-3">
                             <div >
                                 <img src={avatar} className="avatar-img" alt="avatar"/></div>
-                            <div className="pl-2"> 
-                                <p className='font-weight-bold'>From WoodStuff <br></br>  From Total Hypnosis</p>
+                            <div className="pl-3"> 
+                                <p className='font-weight-bold'>From WoodStuff <br></br><span className="accostName">From Total Hypnosis</span></p>
                             </div>
                         </div>
 
@@ -37,7 +37,7 @@ const Video =()=>{
                 </div>
                 <div className="second-flex">
                     <div className="right-side">
-                    <div style={{background:'#E1DEE8'}} className="d-flex justify-content-around pt-4">
+                    <div style={{background:'#E1DEE8'}} className="d-flex justify-content-between pl-5 pr-5 pt-4">
                         <div className="d-flex">
                             <div>
                                 <img src={avatar} className="avatar-img" alt="" />
